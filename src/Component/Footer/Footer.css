@@ -1,0 +1,64 @@
+footer {
+  background-color: #20313b;
+  padding: 50px 4rem;
+  color: #a9e2ee;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.logo-title {
+  font-size: 2.4rem;
+  color: #f9813a;
+  margin-bottom: 2px;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.social-icon {
+  width: 32px;
+  height: 32px;
+  padding: 12px 12px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: ease 0.4s;
+}
+.social-icon:hover {
+  background-color: #304f60;
+}
+.phone-no {
+  font-size: 18px;
+  font-weight: bold;
+
+  margin-bottom: 5px;
+}
+.email {
+  font-size: 16px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list h4 {
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+.footer-list li {
+  font-size: 13px;
+  color: #80adb8;
+  line-height: 1.8rem;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+.footer-list li:hover {
+  transform: translateX(13px);
+}
+.end p {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 4rem;
+}
